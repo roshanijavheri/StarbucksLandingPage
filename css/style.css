@@ -1,0 +1,128 @@
+*{
+    /* css reset */
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin: 26px 50px;
+}
+.container{
+    background:linear-gradient(80deg, #e9c35b, #2c9762ca);
+    height: 80vh;
+    width: 80vw;
+    margin: 20px auto;
+    border: 1px transparent;
+    border-radius: 30px;
+
+}
+.navbar{
+    position: absolute;
+    left: 320px;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.nav-list{
+    display: flex;
+    width:fit-content;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.nav-list li a{
+    color: bisque;
+    text-decoration: none;
+    padding: 6px 6px;
+    margin: 10px 3px 10px 10px;
+    font-size: 16px;
+}
+
+.nav-list li a:hover{
+    color: green;
+    cursor: pointer;
+}
+
+/* #Waffers{
+    top: 250px;
+    height: 378px;
+    width: 248px;
+    position: absolute;
+    display: block;
+    left: 650px;
+} */
+
+
+#Mug{
+    position: absolute;
+    display: block;
+    right: 20px;
+    height: 550px;
+    width: 709px;
+    top: 95px;
+}
+
+
+h1{
+    margin: 130px 50px 50px 100px;
+    font: 3rem sans-serif;
+    width: 50vw;
+    color: rgb(53, 123, 53);
+    font-weight: bolder;
+}
+
+
+#details{
+    cursor:pointer;
+    border: 2px solid rgb(39, 91, 39);
+    background-color: rgb(39, 91, 39);
+    border-radius: 50px;
+    font: 20px sans-serif;
+    margin: 10px 238px;
+    padding: 10px 10px;
+    color: beige;
+    width: 195px;
+    height: 51px;
+}
+
+#find{   
+    margin-top: 30px;
+    left: 860px;
+    position: absolute;
+    padding: 6px 15px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    width: 171px;
+}
+
+
+#signIn{
+    margin-top: 30px;
+    left: 910px;
+    position: relative;
+    padding: 6px 22px;
+    background: transparent;
+    border: 2px solid white;
+    color: antiquewhite;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#signIn:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: green;
+}
+
+#find:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: green;
+}
